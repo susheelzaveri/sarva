@@ -6,7 +6,14 @@ Before we start a project, a developer ( or team ) has to make a lot of choices.
 * Managing state of an application in a clustered environment
 * Log management ( mine and alert on top of it )
 * Insights into internal workings of an application in production ( it is beyond just logging e.g. monitoring memory patterns, heap size, threads etc. )
+* Message Bus ( Kafka or Something Else )
+* Data Processing ( Spark, Samza, Storm, Flink, Druid - what NOT )
 * Alerting when things go south ( Email, Slack, Pager Duty, Netcool etc. )
+* Web App ( with GUI and REST end points )
+  * GUI ( It has whole lot of other implications like Bootstrap, ReactJS and what NOT )
+  * REST APIs
+    * Rate limiting and throttling
+    * Discoverability
 * Make onboarding of application seamless
 
 # Goal
