@@ -15,6 +15,12 @@ Before we start a project, a developer ( or team ) has to make a lot of choices.
     * Rate limiting and throttling
     * Discoverability
 * Make onboarding of application seamless
+* Continous Development
+  * CI for Builds
+  * Unit Test Cases ( Pre-Commit Hooks )
+  * Nightly Builds 
+  * Promotion Logic to various enviroments for testing
+  * Ideal would be tear up and down environments ( to use resources optimally )
 
 # Goal
 * A skeleton that provides all of the above in one go. So that developer can focus on writing business logic and not spend time on learning or figuring out all of the above. 
